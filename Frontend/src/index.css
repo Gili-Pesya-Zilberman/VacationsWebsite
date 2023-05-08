@@ -1,0 +1,148 @@
+/* General design */
+html,
+body,
+#root {
+    margin: 0;
+    padding-top: 5px;
+    height: 100%;
+    text-align: center;
+    font-size: large;
+    font-family: BodyFont;
+    background-image: url("./Assets/Images/clouds-background.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+/* Links */
+a {
+    color: blue;
+}
+
+/* Body font */
+@font-face {
+    font-family: BodyFont;
+    src: url("Assets/Fonts/Poppins-Light.ttf");
+}
+
+/* Header font */
+@font-face {
+    font-family: HeaderFont;
+    src: url("Assets/Fonts/Poppins-ExtraBold.ttf");
+}
+
+/* Form */
+form {
+    display: inline-block;
+    justify-content: center;
+    width: 300px;
+    text-align: left;
+}
+
+form>input,
+form>button {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+    font-size: medium;
+}
+
+form>label {
+    font-size: medium;
+}
+
+/* Container div for login and register design */
+.containerDiv {
+    background-color: rgba(255, 255, 255, 0.73);
+    display: inline-block;
+    padding: 15px;
+    margin: 5px;
+    margin-top: 15px;
+    border-radius: 10px;
+    border: 1px solid;
+    color: black;
+}
+
+.containerDiv h3,
+.containerDiv h6 {
+    margin: 5px;
+}
+
+.containerDiv button,
+.ExportCsvButton button {
+    background-color: rgb(215, 222, 238);
+}
+
+.containerDiv form div {
+    text-align: center;
+    font-size: small;
+}
+
+.containerDiv img {
+    border-radius: 10px;
+    width: 280px;
+    height: 150px;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+
+/* Card div */
+.cardDiv {
+    display: inline-block;
+    position: relative;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid;
+    width: 350px;
+    height: 300px;
+    overflow: auto;
+    font-size: small;
+    background-color: white;
+}
+
+.cardDiv img {
+    width: 320px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.cardDiv .destinationSpan {
+    background-color: white;
+    font-size: large;
+}
+
+/* Err */
+.Err {
+    color: black;
+    position: absolute;
+    font-size: medium;
+    margin: 5px 20px;
+}
+
+/* button */
+button {
+    border-radius: 5px;
+    border: 1px solid;
+    /* padding: 5px;
+    margin: 5px; */
+}
+
+/* Pagination button */
+.pagination button {
+    margin-right: 5px;
+    margin-bottom: 10px;
+    font-size: large;
+    background-color: rgb(215, 222, 238);
+    border: 1px solid black;
+    cursor: pointer;
+    padding: 5px;
+}
+
+/* Pagination active button */
+.pagination .active {
+    border: 2px solid black;
+}
+

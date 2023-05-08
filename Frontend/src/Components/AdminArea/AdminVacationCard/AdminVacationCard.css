@@ -1,0 +1,33 @@
+/* Delete and edit buttons */
+.cardDiv button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+/* Delete and edit buttons size */
+.cardDiv button i {
+    font-size: 15px;
+}
+
+.cardDiv .deleteButton {
+    position: absolute;
+    top: 8px;
+    left: 5px;
+}
+
+.cardDiv .editButton {
+    position: absolute;
+    top: 8px;
+    left: 30px;
+}
+
+.cardDiv button i {
+    font-size: 15px;
+}
+
+.cardDiv div {
+    position: absolute;
+    padding: 0;
+    margin: 0;
+}

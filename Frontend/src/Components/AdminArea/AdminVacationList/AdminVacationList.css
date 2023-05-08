@@ -1,0 +1,15 @@
+/* Nav link (a) div */
+.adminLinks {
+    margin: 5px;
+}
+
+/* Nav link (a) */
+.adminLinks a {
+    color: black;
+    margin-right: 15px;
+}
+
+/* Icons size */
+.adminLinks a i {
+    font-size: 20px;
+}

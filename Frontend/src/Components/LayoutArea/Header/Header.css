@@ -1,0 +1,27 @@
+/* Header */
+.Header h1 {
+    font-family: HeaderFont;
+    font-size: 50px;
+    margin-bottom: 0;
+}
+
+/* Menu buttons div */
+.menuButtons {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+/* Menu Button */
+.menuButtons button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    margin: 5px;
+}
+
+/* Menu buttons icon size */
+.menuButtons button i {
+    font-size: 25px;
+}
